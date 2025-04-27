@@ -51,7 +51,7 @@ export function AppleStyleDock() {
   const resumeTab = [
     {
       name: "Resume",
-      url: `${process.env.NEXT_PUBLIC_RESUME}/resume.pdf`,
+        url: `${process.env.NEXT_PUBLIC_RESUME}/Shoaib Haj Hussen .pdf`,
       favicon: "https://llama-gpt-web.vercel.app/favicon.ico",
       showingUrlAndTabs: false,
     },
