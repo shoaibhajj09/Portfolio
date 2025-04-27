@@ -1,0 +1,315 @@
+import {
+  discord,
+  discordBlack,
+  facebook,
+  figma,
+  framer,
+  instagram,
+  notion,
+  photoshop,
+  protopie,
+  raindrop,
+  slack,
+  telegram,
+  twitter,
+  css,
+  html,
+  js,
+  next,
+  react,
+  ts,
+  redux,
+  tailwind,
+  email,
+  telegram2,
+  linkedin,
+  github,
+  whatsapp,
+} from "@/assets";
+
+export const Socials = [
+  {
+    name: "Discord",
+    src: "/instagram.svg",
+  },
+  {
+    name: "Facebook",
+    src: "/facebook.svg",
+  },
+  {
+    name: "Instagram",
+    src: "/discord.svg",
+  },
+];
+
+export const collabApps = [
+  {
+    id: "0",
+    title: "Figma",
+    icon: figma,
+    width: 26,
+    height: 36,
+  },
+  {
+    id: "1",
+    title: "Notion",
+    icon: notion,
+    width: 34,
+    height: 36,
+  },
+  {
+    id: "2",
+    title: "Discord",
+    icon: discord,
+    width: 36,
+    height: 28,
+  },
+  {
+    id: "3",
+    title: "Slack",
+    icon: slack,
+    width: 34,
+    height: 35,
+  },
+  {
+    id: "4",
+    title: "Photoshop",
+    icon: photoshop,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "5",
+    title: "Protopie",
+    icon: protopie,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "6",
+    title: "Framer",
+    icon: framer,
+    width: 26,
+    height: 34,
+  },
+  {
+    id: "7",
+    title: "Raindrop",
+    icon: raindrop,
+    width: 38,
+    height: 32,
+  },
+];
+
+export const FeaturesApps = [
+  {
+    id: "0",
+    title: "CSS",
+    icon: css,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "1",
+    title: "HTML",
+    icon: html,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "2",
+    title: "JS",
+    icon: js,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "3",
+    title: "NEXT",
+    icon: next,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "4",
+    title: "REACT",
+    icon: react,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "5",
+    title: "REDUX",
+    icon: redux,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "6",
+    title: "TS",
+    icon: ts,
+    width: 26,
+    height: 34,
+  },
+  {
+    id: "7",
+    title: "TAILWIND",
+    icon: tailwind,
+    width: 38,
+    height: 32,
+  },
+];
+
+export const SkillsApps = [
+  {
+    id: "0",
+    title: "CSS",
+    icon: css,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "1",
+    title: "HTML",
+    icon: html,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "2",
+    title: "JS",
+    icon: js,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "3",
+    title: "NEXT",
+    icon: next,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "4",
+    title: "REACT",
+    icon: react,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "5",
+    title: "REDUX",
+    icon: redux,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "6",
+    title: "TS",
+    icon: ts,
+    width: 26,
+    height: 34,
+  },
+  {
+    id: "7",
+    title: "TAILWIND",
+    icon: tailwind,
+    width: 38,
+    height: 32,
+  },
+  {
+    id: "0",
+    title: "CSS",
+    icon: css,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "1",
+    title: "HTML",
+    icon: html,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "2",
+    title: "JS",
+    icon: js,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "2",
+    title: "JS",
+    icon: js,
+    width: 34,
+    height: 34,
+  },
+];
+
+export const socials = [
+  {
+    id: "0",
+    title: "Discord",
+    iconUrl: discordBlack,
+    url: "#",
+  },
+  {
+    id: "1",
+    title: "Twitter",
+    iconUrl: twitter,
+    url: "#",
+  },
+  {
+    id: "2",
+    title: "Instagram",
+    iconUrl: instagram,
+    url: "#",
+  },
+  {
+    id: "3",
+    title: "Telegram",
+    iconUrl: telegram,
+    url: "#",
+  },
+  {
+    id: "4",
+    title: "Facebook",
+    iconUrl: facebook,
+    url: "#",
+  },
+];
+export const contacts = [
+  {
+    id: "0",
+    title: "Email",
+    iconUrl: email,
+    url: "mailto:shoaibhajhussen@gmail.com",
+  },
+
+  {
+    id: "1",
+    title: "linkedin",
+    iconUrl: linkedin,
+    url: "https://www.linkedin.com/in/shoaib-haj-hussen",
+  },
+
+  {
+    id: "2",
+    title: "github",
+    iconUrl: github,
+    url: "https://github.com/shoaibhajj",
+  },
+  {
+    id: "3",
+    title: "telegram",
+    iconUrl: telegram2,
+    url: "https://t.me/Shoaib_hajj",
+  },
+  {
+    id: "4",
+    title: "whatsapp",
+    iconUrl: whatsapp,
+    url: "https://wa.me/96399420513",
+  },
+];
