@@ -64,7 +64,7 @@ function TimeLine() {
   const isMobile = useIsMobile();
 
   return (
-    <ul className="timeline timeline-vertical my-10 ">
+    <ul className="timeline timeline-vertical mx-auto my-10 ">
       {TimeLineData.map((item, index) => {
         const dynamicClass = clsx({
           "timeline-start": isMobile || item.direction === "start",
