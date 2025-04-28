@@ -45,11 +45,14 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 import css from "./features/css.svg";
+import firebase from "./features/firebase.svg";
+import prisma from "./features/prisma.svg";
+import database from "./features/database.svg";
+import nodejs from "./features/nodejs.svg";
 import html from "./features/html.svg";
 import js from "./features/js.svg";
 import next from "./features/next.svg";
 import next2 from "./features/next2.svg";
-import prisma from "./features/prisma.svg";
 import react from "./features/react.svg";
 import redux from "./features/redux.svg";
 import tailwind from "./features/tailwind.svg";
@@ -74,6 +77,9 @@ import spacePortfolio from "./apps/spacePortfolio.png";
 // import logo from "./logo.png";
 export {
   minecraft1,
+  database,
+  nodejs,
+  firebase,
   brainwaveImage,
   spacePortfolio,
   speed2,
