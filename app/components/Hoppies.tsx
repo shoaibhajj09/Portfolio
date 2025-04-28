@@ -1,5 +1,11 @@
 "use client";
-import { chess, football, games, Madrid } from "@/assets";
+import {  Madrid } from "@/assets";
+
+import chess from "@/assets/chess.jpg";
+import football from "@/assets/football.jpg";
+import games from "@/assets/games.jpg";
+
+
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
