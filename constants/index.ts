@@ -315,6 +315,6 @@ export const contacts = [
     id: "4",
     title: "whatsapp",
     iconUrl: whatsapp,
-    url: "https://wa.me/96399420513",
+    url: "https://wa.me/963991420513",
   },
 ];
