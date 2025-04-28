@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 // import clsx from "clsx";
 // import { twMerge } from "tailwind-merge";
 import clsx from "clsx";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import { useIsMobile } from "../utils/useIsMobile";
 function TimeLine() {
   const TimeLineData = [
@@ -74,16 +74,17 @@ function TimeLine() {
           <li className="ml-70 md:ml-0  flex " key={index}>
             <hr className="bg-[#0894FF] mx-5 " />
 
-            <motion.div
+            {/* <motion.div
               className={dynamicClass}
               initial={{ opacity: 0, x: 0 }}
               whileInView={{
                 opacity: 1,
                 x: item.direction === "start" ? -10 : 10,
               }}
-                    viewport={{ once: true, amount: 0.4 }}
+              viewport={{ once: true, amount: 0.4 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
-            >
+            > */}
+            <div className={dynamicClass}>
               <GlowEffectCardMode>
                 <div
                   className="timeline-box bg-[#202938] border-none hover:scale-[102%] transition-transform duration-300 w-75 md:w-96"
@@ -125,7 +126,8 @@ function TimeLine() {
                   </div>
                 </div>
               </GlowEffectCardMode>
-            </motion.div>
+              {/* </motion.div> */}
+            </div>
             <div className="timeline-middle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
