@@ -81,7 +81,7 @@ function TimeLine() {
                 opacity: 1,
                 x: item.direction === "start" ? -10 : 10,
               }}
-              viewport={{ amount: 0.4 }}
+                    viewport={{ once: true, amount: 0.4 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
             >
               <GlowEffectCardMode>
