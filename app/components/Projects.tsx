@@ -4,6 +4,8 @@ import ProjectCards from "./ProjectCards";
 import CustomBrowser from "./CustomBrowser ";
 import { useState } from "react";
 import {
+  AiGenerator,
+  aiLogo,
   brainwave,
   brainwaveImage,
   minecraft,
@@ -39,6 +41,22 @@ const Projects = () => {
   const cards = [
     {
       id: 1,
+      title: "AI Logo Maker",
+      description:
+        "Developed an AI-powered logo generator that transforms text prompts into professional logos using Hugging Face and Gemini AI.🚀",
+      skills: [
+        "Next js",
+        "TypeScript",
+        " Gemini AI ",
+        "Firebase ",
+        "Shadcn UI",
+        "Clerk",
+      ],
+      url: "https://ai-logo-generator-ten.vercel.app/",
+      backgroundImg: aiLogo,
+    },
+    {
+      id: 2,
       title: "Type Test Speed",
       description:
         "Supports multiple languages, especially English 🇬🇧 and Arabic 🇸🇦 You can test how fast you type in different languages 🔥⌨️",
@@ -47,7 +65,7 @@ const Projects = () => {
       backgroundImg: typeTest,
     },
     {
-      id: 2,
+      id: 3,
       title: "Talky Video Chat Application",
       description:
         "Built a real-time P2P video chat app using React, WebRTC, and Socket.io, with a Node.js backend.",
@@ -56,7 +74,7 @@ const Projects = () => {
       backgroundImg: talky,
     },
     {
-      id: 3,
+      id: 4,
       title: "3D Minecraft Clone",
       description:
         "Built a browser-based 3D world using React and Three.js with block placement/deletion, WASD navigation, and local storage persistence.",
@@ -65,7 +83,7 @@ const Projects = () => {
       backgroundImg: minecraft,
     },
     {
-      id: 4,
+      id: 5,
       title: "Brainwave",
       description:
         "Brainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, ",
@@ -74,7 +92,7 @@ const Projects = () => {
       backgroundImg: brainwaveImage,
     },
     {
-      id: 5,
+      id: 6,
       title: "Space Portfolio",
       description:
         "Space Portfolio - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern website with Framer Motion ",
@@ -87,34 +105,42 @@ const Projects = () => {
     {
       id: 1,
 
+      name: "AI Logo Maker",
+      url: "https://ai-logo-generator-ten.vercel.app/",
+      favicon: AiGenerator,
+      showingUrlAndTabs: true,
+    },
+    {
+      id: 2,
+
       name: "Type Test Speed",
       url: "https://typing-speed-test-shoaib-hajj.vercel.app/",
       favicon: speed2.src,
       showingUrlAndTabs: true,
     },
     {
-      id: 2,
+      id: 3,
       showingUrlAndTabs: true,
       name: "Talky video chat",
       url: "https://video-chat-webrtc-socket.netlify.app/",
       favicon: video.src,
     },
     {
-      id: 3,
+      id: 4,
       showingUrlAndTabs: true,
       name: "minecraft by shoaib hajj",
       url: "https://minecraft-sandy-three.vercel.app/",
       favicon: minecraft1.src,
     },
     {
-      id: 4,
+      id: 5,
       showingUrlAndTabs: true,
       name: "Brainwave",
       url: "https://shoaib-hajj-brainwave-one.vercel.app/",
       favicon: brainwave.src,
     },
     {
-      id: 5,
+      id: 6,
       showingUrlAndTabs: true,
       name: "Space Portfolio",
       url: "https://shoaib-hajj-portfolio.vercel.app/",

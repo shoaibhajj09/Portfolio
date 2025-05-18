@@ -24,7 +24,6 @@ import recording01 from "./recording-01.svg";
 import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 
-
 import discord from "./collaboration/discord.png";
 import figma from "./collaboration/figma.png";
 import framer from "./collaboration/framer.png";
@@ -33,11 +32,6 @@ import photoshop from "./collaboration/photoshop.png";
 import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
-
-
-
-
-
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -69,14 +63,18 @@ import football from "./football.jpg";
 import realmadrid from "./realmadrid.png";
 import Madrid from "./Madrid.png";
 import minecraft1 from "./apps/minecraft.ico";
+import AiGenerator from "./aigenerator.ico";
 import speed2 from "./apps/speed2.png";
 import video from "./apps/video.png";
 import brainwaveImage from "./apps/brainwaveImage.png";
 import spacePortfolio from "./apps/spacePortfolio.png";
+import aiLogo from "./ai-logo.png";
 
 // import logo from "./logo.png";
 export {
   minecraft1,
+  AiGenerator,
+  aiLogo,
   database,
   nodejs,
   firebase,
