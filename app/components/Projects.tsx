@@ -6,6 +6,7 @@ import { useState } from "react";
 import {
   AiGenerator,
   aiLogo,
+  aiTrip,
   brainwave,
   brainwaveImage,
   minecraft,
@@ -64,6 +65,7 @@ const Projects = () => {
       url: "https://typing-speed-test-shoaib-hajj.vercel.app/",
       backgroundImg: typeTest,
     },
+
     {
       id: 3,
       title: "Talky Video Chat Application",
@@ -75,6 +77,15 @@ const Projects = () => {
     },
     {
       id: 4,
+      title: "AI Trip Planner",
+      description:
+        "Developed an AI-powered  trip planner that will generate a customized itinerary based on your preferences using Gemini AI and suggest hotels form amadous.",
+      skills: ["React", "Typescript", "Clerk", "Firebase", "Shadcn UI"],
+      url: "https://ai-trip-planner-shoaib-hajj.vercel.app/",
+      backgroundImg: aiTrip,
+    },
+    {
+      id: 5,
       title: "3D Minecraft Clone",
       description:
         "Built a browser-based 3D world using React and Three.js with block placement/deletion, WASD navigation, and local storage persistence.",
@@ -83,7 +94,7 @@ const Projects = () => {
       backgroundImg: minecraft,
     },
     {
-      id: 5,
+      id: 6,
       title: "Brainwave",
       description:
         "Brainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, ",
@@ -92,7 +103,7 @@ const Projects = () => {
       backgroundImg: brainwaveImage,
     },
     {
-      id: 6,
+      id: 7,
       title: "Space Portfolio",
       description:
         "Space Portfolio - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern website with Framer Motion ",
@@ -127,20 +138,28 @@ const Projects = () => {
     },
     {
       id: 4,
+
+      name: "AI Trip Planner",
+      url: "https://ai-trip-planner-shoaib-hajj.vercel.app/",
+      favicon: AiGenerator,
+      showingUrlAndTabs: true,
+    },
+    {
+      id: 5,
       showingUrlAndTabs: true,
       name: "minecraft by shoaib hajj",
       url: "https://minecraft-sandy-three.vercel.app/",
       favicon: minecraft1.src,
     },
     {
-      id: 5,
+      id: 6,
       showingUrlAndTabs: true,
       name: "Brainwave",
       url: "https://shoaib-hajj-brainwave-one.vercel.app/",
       favicon: brainwave.src,
     },
     {
-      id: 6,
+      id: 7,
       showingUrlAndTabs: true,
       name: "Space Portfolio",
       url: "https://shoaib-hajj-portfolio.vercel.app/",

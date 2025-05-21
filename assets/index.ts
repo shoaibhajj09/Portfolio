@@ -69,12 +69,14 @@ import video from "./apps/video.png";
 import brainwaveImage from "./apps/brainwaveImage.png";
 import spacePortfolio from "./apps/spacePortfolio.png";
 import aiLogo from "./ai-logo.png";
+import aiTrip from "./aiTrip.png";
 
 // import logo from "./logo.png";
 export {
   minecraft1,
   AiGenerator,
   aiLogo,
+  aiTrip,
   database,
   nodejs,
   firebase,
